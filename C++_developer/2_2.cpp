@@ -3,8 +3,10 @@
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
-
 using namespace std;
+
+const int MAX_CHIPS =100;
+
 
 int main(){
 
@@ -16,7 +18,7 @@ int main(){
 
   srand(time(0));
 
-  chipsInPile = (rand() % 100) + 1;
+  chipsInPile = (rand() % MAX_CHIPS) + 1;
   cout << "This round will start with " << chipsInPile << endl;
 
   return 0;
