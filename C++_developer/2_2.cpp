@@ -1,4 +1,4 @@
-# game
+//game
 
 #include <iostream>
 #include <ctime>
@@ -6,7 +6,7 @@
 using namespace std;
 
 const int MAX_CHIPS = 100;
-
+const float MAX_TURN = 0.5;
 
 int main(){
 
@@ -20,6 +20,7 @@ int main(){
 
   chipsInPile = (rand() % MAX_CHIPS) + 1;
   cout << "This round will start with " << chipsInPile << endl;
+  cout << "You can only take " << static_cast<int>(chipsInPile * MAX_TURN) << endl;
 
   return 0;
 }
