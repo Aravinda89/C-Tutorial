@@ -5,7 +5,7 @@
 #include <cstdlib>
 using namespace std;
 
-const int MAX_CHIPS =100;
+const int MAX_CHIPS = 100;
 
 
 int main(){
