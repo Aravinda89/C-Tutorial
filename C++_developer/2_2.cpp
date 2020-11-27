@@ -12,9 +12,14 @@ int main(){
 
   bool player1Turn = true;
   bool gameOver = false;
-
   int chipsInPile = 0;
   int chipsTaken = 0;
+
+  string playerName[2];
+  cout << 'Player 1 pls Enter your name' << endl;
+  cin >> playerName[0];
+  cout << 'Player 1 pls Enter your name' << endl;
+  cin >> playerName[1];
 
   srand(time(0));
 
