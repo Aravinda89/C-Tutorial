@@ -16,9 +16,9 @@ int main(){
   int chipsTaken = 0;
 
   string playerName[2];
-  cout << 'Player 1 pls Enter your name' << endl;
+  cout << "Player 1 pls Enter your name:" << endl;
   cin >> playerName[0];
-  cout << 'Player 1 pls Enter your name' << endl;
+  cout << "Player 2 pls Enter your name:" << endl;
   cin >> playerName[1];
 
   srand(time(0));
