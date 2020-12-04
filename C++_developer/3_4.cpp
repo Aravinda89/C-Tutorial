@@ -1,6 +1,7 @@
 // Do while loop
 
 #include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
