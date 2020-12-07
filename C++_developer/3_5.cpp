@@ -13,7 +13,7 @@ int main()
   bool gameOver = false;
   int chipsInPile = 0;
   int chipsTaken = 0;
-
+   
   string playerName[2];
 
   srand(time(0));
@@ -37,10 +37,10 @@ while(gameOver == false){
   	{
   		cout << playerName[1] << "How many chips would you like?\n";
   	}
-  	cout << "you can take upto " << static_cast<int>(MAX_TURN * chipsInPile) << endl;
+  	cout << "you can take upto " << static_cast<int>(MAX_TURN * chipsInPile)<< endl;
   	cin >> chipsTaken;
 
-  } while(chipsTaken >(static_cast<int>(MAX_TURN * chipsInPile) && (chipsInPile > 1));
+  } while(chipsTaken >(static_cast<int>(MAX_TURN * chipsInPile) && (chipsInPile > 1)));
 
   	chipsInPile = chipsInPile - chipsTaken;
   	cout << "There are " << chipsInPile << " Left in pile\n";
@@ -48,7 +48,7 @@ while(gameOver == false){
   		gameOver = true;
   	}
   	else{
-  		player1Turn != player1Turn;
+  		   player1Turn != player1Turn;
   	}
 
    return 0;
